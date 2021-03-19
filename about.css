@@ -1,0 +1,194 @@
+ *{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+ 
+ }
+  
+ body{
+     background:url('blue hill.jpg');
+     background-size:cover;
+     background-position:center;
+     background-repeat:no-repeat;
+
+     font-family: 'Noto Sans', sans-serif;
+
+ 
+
+ }
+  
+ 
+.image{
+
+    display:flex;
+    width:100%;
+    justify-content:center;
+    margin-top:10px;
+    background:#404040;
+
+
+
+ }
+ .maq marquee{
+     font-size:35px;
+     color:tomato;
+     font-weight:900;
+  }
+  
+  .biodata{
+    display:flex;
+    width:100%;
+    padding:50px;
+   
+ }
+ .bio{
+     border:2px solid blue;
+     padding:20px;
+     background:rgb(111, 111, 223);
+     color:white;
+     flex:1;
+     margin:3px;
+
+
+ }
+ .bio h1{
+     color:tomato;
+     font-size:22px;
+     text-align:center;
+ }
+
+ .experience{
+
+    border:2px solid brown;
+    background:white;
+    color:black;
+    padding:20px;
+    flex:1;
+    margin:5px;
+ }
+ .experience h1{
+     color:skyblue;
+     font-size:22px;
+     text-align:center;
+ }
+
+ 
+ 
+ * {
+     box-sizing: border-box;
+     padding:0;
+    margin:10px;}
+ .text h1{
+     text-align:center;
+     font-size:35px;
+     color:yellow;
+ }
+
+.container1 {
+  width: 100%;
+  display:inline;
+       
+ }
+ .text h1{
+     margin:30px;
+ }
+ .skills{
+     padding-top:5px;
+     padding-bottom:10px;
+     text-align:right;
+ }
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 75%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+.contact{
+
+    display:flex;
+    width:100%;
+     flex-direction:flex-end;
+    margin:auto;
+    margin-top:80px;
+    opacity:0.7;
+   
+
+}
+.info{
+     background:green;
+    padding:5px;
+    flex:3;
+    margin:5px;
+    text-align:center;
+    font-size:29px;
+     
+}
+.education {
+
+     background:black;
+    color:white;
+     flex:3;
+    width:auto;
+    padding:50px;
+           }
+         .education h1{
+             
+            margin-left:5%;
+         }
+         .container1{
+             display:flex;
+             width:100%;
+         }
+
+ 
+
+@media (max-width:767px){
+    .biodata{
+        display:flex;
+        flex-direction:column;
+        font-size:3vw;
+     }
+     .bio{
+         display:flex;
+         flex-direction:column;
+         word-wrap:break-word;
+     }
+     .container1{
+         display:flex;
+         flex-direction:column;
+      }
+      .contact{
+          display:flex;
+          flex-direction:column;
+      }
+      .bio h1{
+           margin:auto;
+          width:auto;
+       }
+      .experience{
+
+            line-height:20px;
+           width:100%;
+           margin:auto;
+           display:flex;
+           flex-direction:column;
+           word-wrap:break-word;
+      }
+     .experience h1{
+
+         width:auto;
+          margin:auto;
+  
+     }
+ 
+       
+       .skills{
+           line-height:35px;
+       }
+       .education{
+           word-wrap:break-word;
+           width:auto;
+           margin:auto;
+       }
+    }
+
